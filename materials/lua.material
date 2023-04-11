@@ -1,0 +1,18 @@
+
+material lua
+{
+	technique
+	{
+		pass 
+		{
+			specular 0 0 0 1 0.01
+
+			texture_unit diffuse
+			{
+				texture demos/meu_projeto/lua.jpg 7
+			}
+		}
+
+	}
+
+}

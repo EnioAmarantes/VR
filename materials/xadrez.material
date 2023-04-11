@@ -1,0 +1,18 @@
+
+material xadrez
+{
+	technique
+	{
+		pass 
+		{
+			specular 0 0 0 1 0.01
+
+			texture_unit diffuse
+			{
+				texture demos/meu_projeto/flooring-direct-spirit-chessboard-p755-3264_medium.jpg 9
+			}
+		}
+
+	}
+
+}

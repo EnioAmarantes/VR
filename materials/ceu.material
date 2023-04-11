@@ -1,0 +1,18 @@
+
+material ceu
+{
+	technique
+	{
+		pass 
+		{
+			specular 0 0 0 1 0.01
+
+			texture_unit diffuse
+			{
+				texture demos/meu_projeto/6055469523_e3885d63c7_b.jpg 10
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+
+material marte
+{
+	technique
+	{
+		pass 
+		{
+			specular 0 0 0 0.992126 0.01
+			point_size 30.9998
+
+			texture_unit diffuse
+			{
+				texture demos/meu_projeto/marte2.jpg 8
+			}
+		}
+
+	}
+
+}
